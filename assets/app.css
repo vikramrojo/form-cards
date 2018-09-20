@@ -1,0 +1,36 @@
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --headings-font-family: 'Poppins', sans-serif;
+  --font-weight: 500;
+  --columns-width: 1710px;
+  --link-color: var(--indigo);
+  --line-height: 2;
+  font-size: 20px;
+  letter-spacing: 0.02rem;
+  --column-gutter: 3rem;
+}
+
+body {
+}
+
+nav {
+  background-color: #FFE8CC;
+}
+
+.serif {
+  font-family: "Domine", serif;
+}
+
+#intro {
+  background: linear-gradient(
+    to bottom, 
+    #FFE8CC 0%, 
+    #FFE8CC 50%, 
+    #F3D9FA 50%, 
+    #F3D9FA 100%
+  );  
+}
+
+#claim {
+  background-color: #F3D9FA;  
+}

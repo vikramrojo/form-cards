@@ -1,0 +1,29 @@
+{
+  "name": "form-cards",
+  "version": "1.0.0",
+  "description": "Form Cards",
+  "author": "atav1k <atavikram@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "@nuxtjs/markdownit": "latest",
+    "fortune.css": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
