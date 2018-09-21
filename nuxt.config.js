@@ -13,9 +13,12 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Form Cards' }
     ],
+    script: [
+      { src: 'https://cdn.jsdelivr.net/npm/emergence.js@1.1.2/src/emergence.min.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Domine|Poppins:500' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Serif+JP:900|Poppins:400,800' }
     ]
   },
   /* Customize the progress bar color */

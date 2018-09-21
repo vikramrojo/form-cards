@@ -1,7 +1,7 @@
 :root {
   --font-family: 'Poppins', sans-serif;
   --headings-font-family: 'Poppins', sans-serif;
-  --font-weight: 500;
+  --font-weight: 400;
   --columns-width: 1710px;
   --link-color: var(--indigo);
   --line-height: 2;
@@ -10,7 +10,22 @@
   --column-gutter: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 16px;   
+    --column-gutter: 2rem;     
+  }
+}
+
 body {
+}
+
+img[data-emergence=visible] {
+  animation-name: pulse;
+}
+
+.bolder {
+  font-weight: 800;
 }
 
 nav {
@@ -18,7 +33,7 @@ nav {
 }
 
 .serif {
-  font-family: "Domine", serif;
+  font-family: "Noto Serif JP", serif;
 }
 
 #intro {
