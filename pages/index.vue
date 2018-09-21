@@ -16,12 +16,12 @@
       .row.padY4.padX7.center.padReset
         .col
           h3 Strategy Decks for Design Lovers        
-          h2.bolder.pink Dialog. Make. Collaborate.
+          h2.bolder Dialog. Make. Collaborate.
           img(src="/img/logoLg.svg" data-emergence="hidden").wid50.isAnimated
           h3 Works better than design jargon
             br
             | …or your money back!
-          h1.marT6.marReset.bolder.pink More design doing
+          h1.marT6.marReset.bolder More design doing
 </template>
 <script>
 export default {

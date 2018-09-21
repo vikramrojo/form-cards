@@ -15,9 +15,26 @@
     font-size: 16px;   
     --column-gutter: 2rem;     
   }
+  #intro {
+    text-align: center;
+  }
 }
 
 body {
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
 
 img[data-emergence=visible] {
