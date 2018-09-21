@@ -7,7 +7,7 @@
   --line-height: 2;
   font-size: 20px;
   letter-spacing: 0.02rem;
-  --column-gutter: 3rem;
+  --column-gutter: 6rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -48,4 +48,33 @@ nav {
 
 #claim {
   background-color: #F3D9FA;  
+}
+
+.card {
+  transform: rotate(-12deg);
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
 }

@@ -1,15 +1,25 @@
 <template lang="pug">
   main
-    nav
+    nav.z1
       .nav.cols
         .navCenter.col
           marquee
             a(href="/") Form Cards — Less Design Thinking, More Design Doing 
     section#intro
       .row
-        .col6.center
-          img(src="/img/cards.png" data-emergence="hidden").isAnimated
-        .col6.marT6.marReset
+        .col3.center.card.hide
+          .content
+            .front
+              img(src="/img/back.svg" data-emergence="hidden").isAnimated
+            .back
+              img(src="/img/frontA.svg" data-emergence="hidden").isAnimated
+        .col3.center.card.z0.hide
+          .content
+            .front
+              img(src="/img/frontA.svg" data-emergence="hidden").isAnimated
+            .back
+              img(src="/img/back.svg" data-emergence="hidden").isAnimated
+        .col6.marT6.marReset.z1
           h2.bolder.indigo Form Cards
           h3 Design principles and prompts for your product team to evaluate user interfaces.
     section#claim
